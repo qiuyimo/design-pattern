@@ -79,6 +79,6 @@ class ADArt extends ArtBase
     }
 }
 
-//装饰模式做法↓
+// 装饰模式做法
 $art = new ADArt(new SEOArt(new BianArt(new ArtBase('好好学习天天向上'))));
 echo $art->decorator();
